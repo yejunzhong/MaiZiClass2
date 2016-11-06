@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="时尚中黑简体.ttf">
+            <string>TRENDS</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MaiZiClass2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="从美元" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOv-kT-JkV">
+                                <rect key="frame" x="308" y="20" width="51" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZoP-dC-qTJ">
+                                <rect key="frame" x="331" y="47.5" width="28" height="54.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="Xfc-Vx-F2o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="45"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbF-14-LKg">
+                                <rect key="frame" x="85" y="48" width="238" height="54"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="45"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="到人民币" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLx-zM-ctQ">
+                                <rect key="frame" x="288.5" y="119" width="68" height="20"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="soT-PW-y7F">
+                                <rect key="frame" x="331" y="147" width="25.5" height="54.5"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="45"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7kT-A2-Sg1">
+                                <rect key="frame" x="85" y="147" width="238" height="54.5"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="45"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="d6I-V2-Fnj">
+                                <rect key="frame" x="85" y="110" width="290" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="yiB-jW-3W7"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKX-YJ-C10">
+                                <rect key="frame" x="27" y="86" width="50" height="48"/>
+                                <state key="normal" image="exchange"/>
+                                <connections>
+                                    <action selector="changeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p0a-hx-eV7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adY-4u-EHL">
+                                <rect key="frame" x="281.5" y="201.5" width="94" height="116.5"/>
+                                <state key="normal" image="delete" backgroundImage="block_black"/>
+                                <connections>
+                                    <action selector="deleteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Ix-1H-EJL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ZS-Ey-Qrf">
+                                <rect key="frame" x="187.5" y="201.5" width="94" height="116.5"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="3" backgroundImage="block_black"/>
+                                <connections>
+                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q4w-mQ-BfW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRG-hh-ldR">
+                                <rect key="frame" x="94" y="201.5" width="93.5" height="116.5"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="2" backgroundImage="block_black"/>
+                                <connections>
+                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KgC-3t-gwH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58t-dq-l44">
+                                <rect key="frame" x="0.0" y="201.5" width="94" height="116.5"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="1" backgroundImage="block_black"/>
+                                <connections>
+                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lZd-Pf-yuc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3r-Of-Pww">
+                                <rect key="frame" x="281.5" y="318" width="93.5" height="116.5"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="0" backgroundImage="block_black"/>
+                                <connections>
+                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pv2-Sx-Cyp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZwI-ff-sue">
+                                <rect key="frame" x="187.5" y="318" width="94" height="116.5"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="6" backgroundImage="block_black"/>
+                                <connections>
+                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8p3-Xs-LBW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19u-Gf-0M8">
+                                <rect key="frame" x="94" y="318" width="93.5" height="116.5"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="5" backgroundImage="block_black"/>
+                                <connections>
+                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XqT-AM-N0h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ane-8F-ES4">
+                                <rect key="frame" x="0.0" y="318" width="94" height="116.5"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="4" backgroundImage="block_black"/>
+                                <connections>
+                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bQP-TT-Idf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBh-Cl-c2U">
+                                <rect key="frame" x="281.5" y="434.5" width="93.5" height="116.5"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="." backgroundImage="block_black"/>
+                                <connections>
+                                    <action selector="point:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jbJ-hB-cSL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rh2-vO-o3s">
+                                <rect key="frame" x="187.5" y="434.5" width="94" height="116.5"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="9" backgroundImage="block_black"/>
+                                <connections>
+                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K6f-QW-UJb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fwc-wt-hV8">
+                                <rect key="frame" x="94" y="434.5" width="93.5" height="116.5"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="8" backgroundImage="block_black"/>
+                                <connections>
+                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nCR-mr-obe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q81-0f-Qn5">
+                                <rect key="frame" x="0.0" y="434.5" width="94" height="116.5"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="7" backgroundImage="block_black"/>
+                                <connections>
+                                    <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lvf-NG-hsP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fu6-wj-chB">
+                                <rect key="frame" x="281.5" y="551" width="93.5" height="116"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="=" backgroundImage="block_orange"/>
+                                <connections>
+                                    <action selector="done:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JaJ-sD-DZe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3e-lz-TNK">
+                                <rect key="frame" x="187.5" y="551" width="94" height="116"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="+" backgroundImage="block_black"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVd-iy-5KC">
+                                <rect key="frame" x="94" y="551" width="93.5" height="116"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="-" backgroundImage="block_black"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGE-96-YWa">
+                                <rect key="frame" x="0.0" y="551" width="94" height="116"/>
+                                <fontDescription key="fontDescription" name="TRENDS" family="ShiShangZhongHeiJianTi" pointSize="50"/>
+                                <state key="normal" title="C" backgroundImage="block_orange"/>
+                                <connections>
+                                    <action selector="clearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ivQ-Jc-Ate"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93968033790588379" green="0.42712002992630005" blue="0.18794551491737366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Fu6-wj-chB" secondAttribute="bottom" id="0Bg-If-rHI"/>
+                            <constraint firstItem="Q81-0f-Qn5" firstAttribute="top" secondItem="ane-8F-ES4" secondAttribute="bottom" id="0Kt-O0-y8a"/>
+                            <constraint firstItem="adY-4u-EHL" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="0TJ-BI-tQg"/>
+                            <constraint firstItem="lRG-hh-ldR" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="0TV-e5-vco"/>
+                            <constraint firstItem="Q81-0f-Qn5" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="0ZC-JR-419"/>
+                            <constraint firstItem="q3r-Of-Pww" firstAttribute="leading" secondItem="ZwI-ff-sue" secondAttribute="trailing" id="0fD-eH-fcH"/>
+                            <constraint firstItem="1ZS-Ey-Qrf" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="2SJ-wg-ejm"/>
+                            <constraint firstItem="KVd-iy-5KC" firstAttribute="leading" secondItem="SGE-96-YWa" secondAttribute="trailing" id="3pN-49-gWk"/>
+                            <constraint firstItem="SGE-96-YWa" firstAttribute="top" secondItem="Q81-0f-Qn5" secondAttribute="bottom" id="55x-jY-1SU"/>
+                            <constraint firstItem="58t-dq-l44" firstAttribute="top" secondItem="7kT-A2-Sg1" secondAttribute="bottom" id="5nj-C4-bHX"/>
+                            <constraint firstItem="GKX-YJ-C10" firstAttribute="centerY" secondItem="d6I-V2-Fnj" secondAttribute="centerY" id="63N-mW-WRC"/>
+                            <constraint firstItem="19u-Gf-0M8" firstAttribute="top" secondItem="lRG-hh-ldR" secondAttribute="bottom" id="6jy-zb-cst"/>
+                            <constraint firstItem="Fu6-wj-chB" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="70p-EI-c0N"/>
+                            <constraint firstItem="adY-4u-EHL" firstAttribute="leading" secondItem="1ZS-Ey-Qrf" secondAttribute="trailing" id="7ZU-bo-nYY"/>
+                            <constraint firstAttribute="trailing" secondItem="Fu6-wj-chB" secondAttribute="trailing" id="80R-fJ-A0H"/>
+                            <constraint firstItem="lRG-hh-ldR" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="8qE-kA-mKb"/>
+                            <constraint firstItem="Rh2-vO-o3s" firstAttribute="top" secondItem="ZwI-ff-sue" secondAttribute="bottom" id="AUa-XX-tlk"/>
+                            <constraint firstItem="ZwI-ff-sue" firstAttribute="top" secondItem="1ZS-Ey-Qrf" secondAttribute="bottom" id="Aul-hQ-pxw"/>
+                            <constraint firstItem="q3e-lz-TNK" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="Bav-n2-aY6"/>
+                            <constraint firstItem="Q81-0f-Qn5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DTW-L4-WPK"/>
+                            <constraint firstItem="Rh2-vO-o3s" firstAttribute="leading" secondItem="Fwc-wt-hV8" secondAttribute="trailing" id="Dyt-Mm-cGe"/>
+                            <constraint firstAttribute="trailing" secondItem="q3r-Of-Pww" secondAttribute="trailing" id="E9X-HF-901"/>
+                            <constraint firstItem="Rh2-vO-o3s" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="Ee2-gp-qGD"/>
+                            <constraint firstItem="Fu6-wj-chB" firstAttribute="top" secondItem="wBh-Cl-c2U" secondAttribute="bottom" id="GDw-8B-siY"/>
+                            <constraint firstItem="wBh-Cl-c2U" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="Hcf-dL-lO9"/>
+                            <constraint firstItem="19u-Gf-0M8" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="IDN-aM-Any"/>
+                            <constraint firstItem="KVd-iy-5KC" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="IV9-fh-AIB"/>
+                            <constraint firstItem="ZwI-ff-sue" firstAttribute="leading" secondItem="19u-Gf-0M8" secondAttribute="trailing" id="IVP-QN-Qwa"/>
+                            <constraint firstItem="DOv-kT-JkV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Int-Eb-bM9"/>
+                            <constraint firstItem="Fwc-wt-hV8" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="JMo-rM-exv"/>
+                            <constraint firstItem="d6I-V2-Fnj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="69" id="KqR-la-x8b"/>
+                            <constraint firstItem="xLx-zM-ctQ" firstAttribute="top" secondItem="d6I-V2-Fnj" secondAttribute="bottom" constant="8" symbolic="YES" id="LOx-TU-v9z"/>
+                            <constraint firstItem="GKX-YJ-C10" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="LiP-GC-Qqz"/>
+                            <constraint firstItem="q3e-lz-TNK" firstAttribute="top" secondItem="Rh2-vO-o3s" secondAttribute="bottom" id="Lq7-sN-FVP"/>
+                            <constraint firstItem="Fu6-wj-chB" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="N1P-zt-jB6"/>
+                            <constraint firstAttribute="trailing" secondItem="adY-4u-EHL" secondAttribute="trailing" id="NTe-ag-YNQ"/>
+                            <constraint firstItem="19u-Gf-0M8" firstAttribute="leading" secondItem="ane-8F-ES4" secondAttribute="trailing" id="OBd-8s-gCa"/>
+                            <constraint firstItem="q3r-Of-Pww" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="Ozf-Bh-8m7"/>
+                            <constraint firstItem="ZoP-dC-qTJ" firstAttribute="leading" secondItem="fbF-14-LKg" secondAttribute="trailing" constant="8" symbolic="YES" id="Q8l-4E-fb2"/>
+                            <constraint firstItem="wBh-Cl-c2U" firstAttribute="leading" secondItem="Rh2-vO-o3s" secondAttribute="trailing" id="QoW-qJ-MEo"/>
+                            <constraint firstItem="7kT-A2-Sg1" firstAttribute="baseline" secondItem="soT-PW-y7F" secondAttribute="baseline" id="RSs-W3-Q5v"/>
+                            <constraint firstItem="1ZS-Ey-Qrf" firstAttribute="top" secondItem="7kT-A2-Sg1" secondAttribute="bottom" id="RgH-XP-r7y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KVd-iy-5KC" secondAttribute="bottom" id="Rt8-5i-rQb"/>
+                            <constraint firstItem="Fwc-wt-hV8" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="S7m-12-7jy"/>
+                            <constraint firstItem="fbF-14-LKg" firstAttribute="top" secondItem="DOv-kT-JkV" secondAttribute="bottom" constant="8" symbolic="YES" id="UDz-op-GuB"/>
+                            <constraint firstItem="fbF-14-LKg" firstAttribute="baseline" secondItem="ZoP-dC-qTJ" secondAttribute="baseline" id="Ure-Ah-Rpa"/>
+                            <constraint firstItem="q3r-Of-Pww" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="WDk-L4-WjK"/>
+                            <constraint firstItem="Rh2-vO-o3s" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="Wau-Jf-V86"/>
+                            <constraint firstItem="wBh-Cl-c2U" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="Wxc-yh-9iZ"/>
+                            <constraint firstItem="ZwI-ff-sue" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="XSA-xN-VNQ"/>
+                            <constraint firstItem="ZwI-ff-sue" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="aG5-bL-Ejr"/>
+                            <constraint firstAttribute="trailing" secondItem="wBh-Cl-c2U" secondAttribute="trailing" id="av7-7m-M3e"/>
+                            <constraint firstItem="fbF-14-LKg" firstAttribute="leading" secondItem="d6I-V2-Fnj" secondAttribute="leading" id="avH-3A-aZA"/>
+                            <constraint firstItem="lRG-hh-ldR" firstAttribute="leading" secondItem="58t-dq-l44" secondAttribute="trailing" id="axX-7b-9ad"/>
+                            <constraint firstItem="Q81-0f-Qn5" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="dE6-nS-w10"/>
+                            <constraint firstItem="q3r-Of-Pww" firstAttribute="top" secondItem="adY-4u-EHL" secondAttribute="bottom" id="eC7-ja-Qw4"/>
+                            <constraint firstItem="58t-dq-l44" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="foP-29-5BO"/>
+                            <constraint firstItem="KVd-iy-5KC" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="fqv-kJ-Z54"/>
+                            <constraint firstItem="fbF-14-LKg" firstAttribute="leading" secondItem="GKX-YJ-C10" secondAttribute="trailing" constant="8" symbolic="YES" id="fzS-El-2EH"/>
+                            <constraint firstItem="1ZS-Ey-Qrf" firstAttribute="leading" secondItem="lRG-hh-ldR" secondAttribute="trailing" id="gC6-uf-Hfd"/>
+                            <constraint firstItem="Fwc-wt-hV8" firstAttribute="top" secondItem="19u-Gf-0M8" secondAttribute="bottom" id="gf0-sj-fVm"/>
+                            <constraint firstItem="SGE-96-YWa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="glO-q2-gcu"/>
+                            <constraint firstItem="xLx-zM-ctQ" firstAttribute="trailing" secondItem="soT-PW-y7F" secondAttribute="trailing" id="h5v-YC-yr9"/>
+                            <constraint firstItem="ane-8F-ES4" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="i8M-dx-Z9g"/>
+                            <constraint firstItem="SGE-96-YWa" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="jhg-jY-APO"/>
+                            <constraint firstItem="lRG-hh-ldR" firstAttribute="top" secondItem="7kT-A2-Sg1" secondAttribute="bottom" id="kIV-6m-rNf"/>
+                            <constraint firstItem="ane-8F-ES4" firstAttribute="top" secondItem="58t-dq-l44" secondAttribute="bottom" id="kkN-RF-3PT"/>
+                            <constraint firstItem="DOv-kT-JkV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="m8f-a3-fzA"/>
+                            <constraint firstItem="GKX-YJ-C10" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="66" id="mdU-bC-btV"/>
+                            <constraint firstItem="ZoP-dC-qTJ" firstAttribute="leading" secondItem="soT-PW-y7F" secondAttribute="leading" id="nJN-O4-lWL"/>
+                            <constraint firstItem="SGE-96-YWa" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="nLI-ev-lK4"/>
+                            <constraint firstItem="Fu6-wj-chB" firstAttribute="leading" secondItem="q3e-lz-TNK" secondAttribute="trailing" id="ngf-Ro-Cxe"/>
+                            <constraint firstItem="Fwc-wt-hV8" firstAttribute="leading" secondItem="Q81-0f-Qn5" secondAttribute="trailing" id="nkZ-e3-KcI"/>
+                            <constraint firstItem="1ZS-Ey-Qrf" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="oR7-7A-zud"/>
+                            <constraint firstItem="KVd-iy-5KC" firstAttribute="top" secondItem="Fwc-wt-hV8" secondAttribute="bottom" id="pfS-71-YuC"/>
+                            <constraint firstItem="19u-Gf-0M8" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="pyI-Et-B29"/>
+                            <constraint firstItem="d6I-V2-Fnj" firstAttribute="top" secondItem="fbF-14-LKg" secondAttribute="bottom" constant="8" symbolic="YES" id="qiW-x1-3eX"/>
+                            <constraint firstItem="adY-4u-EHL" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="qpL-WK-0p3"/>
+                            <constraint firstItem="ane-8F-ES4" firstAttribute="height" secondItem="58t-dq-l44" secondAttribute="height" id="qqI-FM-VRZ"/>
+                            <constraint firstItem="q3e-lz-TNK" firstAttribute="width" secondItem="58t-dq-l44" secondAttribute="width" id="qu0-jj-r4L"/>
+                            <constraint firstItem="wBh-Cl-c2U" firstAttribute="top" secondItem="q3r-Of-Pww" secondAttribute="bottom" id="sFw-8P-P25"/>
+                            <constraint firstItem="soT-PW-y7F" firstAttribute="leading" secondItem="7kT-A2-Sg1" secondAttribute="trailing" constant="8" symbolic="YES" id="tPQ-5Y-QjQ"/>
+                            <constraint firstItem="adY-4u-EHL" firstAttribute="top" secondItem="7kT-A2-Sg1" secondAttribute="bottom" id="uWx-O0-Rat"/>
+                            <constraint firstAttribute="trailing" secondItem="d6I-V2-Fnj" secondAttribute="trailing" id="vCl-MI-FP6"/>
+                            <constraint firstItem="ane-8F-ES4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wJV-PY-fBk"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SGE-96-YWa" secondAttribute="bottom" id="xGw-AQ-8KN"/>
+                            <constraint firstItem="7kT-A2-Sg1" firstAttribute="top" secondItem="xLx-zM-ctQ" secondAttribute="bottom" constant="8" symbolic="YES" id="xlf-Ap-0Ks"/>
+                            <constraint firstItem="d6I-V2-Fnj" firstAttribute="leading" secondItem="7kT-A2-Sg1" secondAttribute="leading" id="yFN-aN-ZTJ"/>
+                            <constraint firstItem="q3e-lz-TNK" firstAttribute="leading" secondItem="KVd-iy-5KC" secondAttribute="trailing" id="yV4-QI-CeM"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="q3e-lz-TNK" secondAttribute="bottom" id="yk2-Xs-Rc2"/>
+                            <constraint firstItem="DOv-kT-JkV" firstAttribute="trailing" secondItem="ZoP-dC-qTJ" secondAttribute="trailing" id="zdo-N2-nWw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="downIcon" destination="soT-PW-y7F" id="mfq-QR-VhL"/>
+                        <outlet property="downTitle" destination="xLx-zM-ctQ" id="Nbd-h0-2vv"/>
+                        <outlet property="downValue" destination="7kT-A2-Sg1" id="E68-A3-xUC"/>
+                        <outlet property="upIcon" destination="ZoP-dC-qTJ" id="5kU-Vx-MOO"/>
+                        <outlet property="upTitle" destination="DOv-kT-JkV" id="dt3-rC-ad3"/>
+                        <outlet property="upValue" destination="fbF-14-LKg" id="xnc-Z0-TXJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="68" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="block_black" width="93" height="89"/>
+        <image name="block_orange" width="93" height="89"/>
+        <image name="delete" width="36" height="23"/>
+        <image name="exchange" width="25" height="21"/>
+        <image name="line" width="309" height="2"/>
+    </resources>
+    <color key="tintColor" red="0.94108694791793823" green="0.94124108552932739" blue="0.94105428457260132" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
